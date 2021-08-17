@@ -6,7 +6,7 @@ import pandas as pd
 
 #cmat=pd.read_csv('Network-Dietary-combined.csv', header=0)
 
-cmat='Dietary_KOs_discPWs_forNetwork.csv' #open file
+cmat='Dietary_AllKOs_forNetwork.csv' #open file
 
 #convert file into a numpy array
 #np.corrcoef takes each row of an array and treats it like a different feature
@@ -26,4 +26,4 @@ pdmatrix.to_csv('matrix')
 
 g=nx.Graph(outts) #creates network
 
-nx.write_gexf(g, 'Dietary-KOsFromDiscPWs-GEPHI.gexf')
+nx.write_gexf(g, 'Dietary-AllKOs-GEPHI.gexf')
