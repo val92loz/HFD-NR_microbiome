@@ -3,7 +3,9 @@
   - exported functions (generated from anvio with the anvi-export-functions command)
   - gene coverage (generated from anvio with the anvi-export-splits-and-coverages command)
   - KEGG orthology table (generated following these instructions https://merenlab.org/2018/01/17/importing-ghostkoala-annotations/)
-  - genedict file (contains the names of all the bins)
+  - genedict zip file (Because this file is so large, I uploaded it as 3 zipped files. Download all three zip files, unzip and then combine all files into one)
+    - *cat genedict-** *> genedict* 
+ 
   
 ### Steps:  
 1) Modify the **genedict** file by importing the file into R and following the instructions in the **modify-genedict-FMT.R** script
