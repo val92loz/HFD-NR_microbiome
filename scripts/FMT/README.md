@@ -16,5 +16,5 @@
    - **Pathways.csv**
    - **KOs.csv**
 
-3) Run the script **collapsed_pathways_then_r.py** - Will create the **collapsed_pathways.csv** file
+3) Run the script **collapse_pathways.py** - Will create the **collapsed_pathways.csv** file
 
