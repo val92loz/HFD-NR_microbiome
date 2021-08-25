@@ -5,7 +5,7 @@
   - KEGG orthology table (generated following these instructions https://merenlab.org/2018/01/17/importing-ghostkoala-annotations/)
   - genedict zip file
     - Because this file is so large, I split it and uploaded it as 4 zipped files.
-      - *gsplit -n 3 -a 1 -d genedict genedict-*
+      - *gsplit -n 4 -a 1 -d genedict genedict-*
         - genedict-0.zip 
         - genedict-1.zip
         - genedict-2.zip
